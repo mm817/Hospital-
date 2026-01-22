@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+.header {
+  background: #fff;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.container {
+  padding: 15px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 80px;
+}
+
+.btn-red {
+  width: 100%;
+  padding: 12px;
+  background: #e53935;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.btn-outline {
+  background: none;
+  border: 1px solid #e53935;
+  color: #e53935;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.small {
+  width: auto;
+  padding: 6px 10px;
+}
+
+.card {
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.doctor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.doctor img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
